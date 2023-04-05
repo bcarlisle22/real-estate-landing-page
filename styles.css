@@ -112,7 +112,7 @@ input{
 
 
 .banner-picture{
-    min-height: 30vh;
+    min-height: 22vh;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/bailey-anselme-Bkp3gLygyeA-unsplash.jpg);
     background-size: cover;
     background-position: center;
@@ -132,6 +132,8 @@ input{
     color: #fff;
     text-align: center;
     font-size: 13px;
+    margin-left: 55px;
+    margin-right: 55px;
 }
 /* middle section */
 
@@ -141,7 +143,7 @@ input{
 }
 .middle-text{
     float: left;
-    margin-left: 20%;
+    margin-left: 25%;
     margin-top: 10%;
 }
 .middle-text h1{
@@ -149,7 +151,7 @@ input{
     color: #9A7D0A;
 }
 #middle-line{
-    width: 40%;
+    width: 60%;
     color: #9A7D0A;
 }
 .middle-text h2{
@@ -176,16 +178,36 @@ input{
     width: 55%;
     float: left;
 }
-
+.hero-about{
+    min-height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/house11brownsub.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.hero-img h1{
+    color: #9A7D0A;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}.hero-img p{
+    color: #343a40;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
 /* about-section home page */
 .about-section{
     margin-bottom: 20%;
+    display: flex;
 }
 #about-section-img{
-    width: 40%;
-    float: left;
-    margin-right: 10%;
-    margin-left: 5%;
+    width: 50%;
+}
+.about-s-text{
+    display: inline-block;
 }
 
 .about-s-text h1{
@@ -195,7 +217,7 @@ input{
 
 }
 #about-line{
-    width: 30%;
+    width: 10%;
     color: #9A7D0A;
 }
 .about-s-text h2{
@@ -209,7 +231,7 @@ input{
     background-color: #fff ;
     color: #9A7D0A;
     border: 1.5px solid #9A7D0A ;
-    width: 10%;
+    min-width: 6ca0%;
     padding: 10px;
     margin-top: 5px;
 }
@@ -227,6 +249,7 @@ input{
     bottom: 0;
     color: white;
     padding-top: 10px;
+    margin-top: 20%;
     
 }
 
@@ -256,3 +279,97 @@ footer h1{
 #logoblack{
     width: 10%;
 }
+
+/* about page */
+.about-team{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+
+#teamprofile{
+    width: 80%;
+}
+
+.about-team{
+    margin-top: 5%;
+}
+
+.about-team-img{
+    margin-bottom: 3%;
+    margin-left: 20%;
+}
+
+.about-team-img h1{
+    font-size: 15px;
+    color: #343a40;
+    font-weight: 100;
+    margin-top: 3%;
+    text-transform: uppercase;
+}
+
+#about-learn{
+    background-color: #fff ;
+    color: #9A7D0A;
+    border: 1.5px solid #9A7D0A ;
+    width:35%;
+    padding: 8px;
+    margin-top: 5px;
+}
+#about-learn:hover{
+    background-color: #9A7D0A;
+    color: #fff;
+}
+#about-logo{
+    width: 10%;
+    margin-top: 5%;
+}
+.about-top-title{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+/* profile page */
+
+#profileimg{
+    width: 35%;
+    margin-left: 5%;
+    margin-top: 5%;
+    float: left;
+}
+.profile-text{
+    margin-left: 45%;
+    margin-right: 5%;
+}
+.profile-text h1{ 
+    padding-top: 35%;
+    font-size: 30px;
+}
+.profile-text p{ 
+    padding-top: 5%;
+}
+
+#profile-line{
+    width: 50%;
+    margin-left: 25%;
+    color: #9A7D0A;
+}
+#facebook{
+    width: 2%;
+    margin-right: 5px;
+}
+#facebook:hover{
+    cursor: pointer;
+}
+#email-button{
+    background-color: #fff ;
+    color: #9A7D0A;
+    border: 1.5px solid #9A7D0A ;
+    width: 10%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#email-button:hover{
+    background-color: #9A7D0A;
+    color: #fff;
+}
+
