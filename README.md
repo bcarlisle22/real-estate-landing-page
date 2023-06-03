@@ -1,6 +1,5 @@
 Real Estate
 
-Built using:
 - HTML
 - CSS
 - Javascript
