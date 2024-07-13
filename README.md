@@ -1,9 +1,10 @@
 Real Estate Landing Page
+<hr>
+<br>
 
-- HTML
-- CSS
-- Javascript
-- Bootstrap
+``HTML`` | ``CSS``| ``Bootstrap``
+
+<br>
 
 ![](images/realestate1.jpg)
 ![](images/realestate2.jpg)
